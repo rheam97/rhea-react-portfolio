@@ -1,0 +1,19 @@
+.res {
+    h1 {
+        text-align: center;
+    }
+    .resFile{
+        height: 90vh;
+        width: 40vw;
+        display: block;
+        align-items: center;
+    }
+    .download{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-130%, 90%);
+        font-size: 20px;
+    }
+}
+
