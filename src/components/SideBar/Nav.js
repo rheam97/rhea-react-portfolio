@@ -1,17 +1,20 @@
 import React from "react";
 import NavLink from "./NavLink";
+import './index.scss'
+// import useDarkMode from 'use-dark-mode'
 
 function Nav({ pages, currentPage, setCurrentPage }) {
   return (
     <nav>
       <ul>
         {pages.map((page) => (
+          <div className='nav-link' key={page}>
           <NavLink
-            key={page}
             page={page}
             currentPage={currentPage}
             setCurrentPage={setCurrentPage}
           />
+          </div>
         ))}
       </ul>
     </nav>

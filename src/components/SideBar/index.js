@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from './Nav'
-import './index.css'
+import './index.scss'
 
 function SideBar({pages, currentPage, setCurrentPage}){
 return (
