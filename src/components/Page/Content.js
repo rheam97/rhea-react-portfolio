@@ -1,8 +1,8 @@
 import React from 'react' 
 
-function Content(rendering){
+function Content(page){
 return (
-    <div>{rendering.children}</div>
+    <section>{page.children}</section>
 )
 }
 
