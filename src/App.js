@@ -5,16 +5,6 @@ import Footer from "./components/Footer";
 
 import './App.css';
 
-const sideBarStyle= {
-  height: '100%',
-  width: '300px',
-  position: 'fixed',
-  zIndex: '1',
-  top: '0',
-  right: '0',
-  overflowX: 'hidden',
-  paddingTop: '20px'
-}
 
 const mainStyle = {
   marginRight: '160px', 
@@ -30,11 +20,11 @@ function App() {
   }, [currentPage]);
   return (
     <>
-    <SideBar style={sideBarStyle} pages ={pages} currentPage={currentPage} setCurrentPage={setCurrentPage}/>
+    <SideBar pages ={pages} currentPage={currentPage} setCurrentPage={setCurrentPage}/>
     <main style={mainStyle}>
     <Page currentPage={currentPage}/>
-    </main>
     <Footer></Footer>
+    </main>
     </>
   );
 }
