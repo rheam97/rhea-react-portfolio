@@ -7,6 +7,7 @@ function Nav({ pages, currentPage, setCurrentPage }) {
       <ul>
         {pages.map((page) => (
           <NavLink
+            key={page}
             page={page}
             currentPage={currentPage}
             setCurrentPage={setCurrentPage}

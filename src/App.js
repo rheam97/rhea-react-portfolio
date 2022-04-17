@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 
 import './App.css';
 
-
 const mainStyle = {
   marginRight: '160px', 
   fontSize: '45px', 
