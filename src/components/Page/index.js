@@ -10,7 +10,7 @@ function Page({ currentPage }) {
     switch (currentPage) {
       case "About":
         return <About />;
-      case "Portfolio":
+      case "Projects":
         return <Projects />;
       case "Contact":
         return <Contact />;

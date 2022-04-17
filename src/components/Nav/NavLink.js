@@ -5,10 +5,7 @@ function NavLink({ page, currentPage, setCurrentPage }) {
     <li key={page}>
       <span
         className={currentPage}
-        onClick={() => {
-          setCurrentPage(page);
-        }}
-      >
+        onClick={() => {setCurrentPage(page)}}>
         {page}
       </span>
     </li>
