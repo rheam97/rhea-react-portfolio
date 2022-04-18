@@ -3,8 +3,8 @@
         text-align: center;
     }
     .resFile{
-        height: 90vh;
-        width: 40vw;
+        height: 80vh;
+        width: 50vw;
         display: block;
         align-items: center;
     }
@@ -12,7 +12,15 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-130%, 90%);
+        transform: translate(-120%, 90%);
+        font-size: 20px;
+    }
+    .techstack {
+        position: absolute;
+        width: 30vw;
+        top: 20%;
+        right: 5%;
+        transform: translate(-40%, 60%);
         font-size: 20px;
     }
 }
