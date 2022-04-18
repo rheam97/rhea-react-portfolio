@@ -62,20 +62,27 @@ function Projects() {
   return (
     <div className="projects">
       <h1>Projects to-date</h1>
-      <Carousel variant='dark' className="carousel">
+      <Carousel variant="dark" className="carousel">
         {PROJECTS.map((project, i) => (
           <Carousel.Item key={i} className="item">
-            <img className="d-block center img mt-3 pb-3" src={project.image} alt={project.name} />
-            <div className="links">
-              <div className="reveal">
-                <a href={project.site} rel="noreferrer" target="_blank">Site</a>{'  '}|{'  '}
-                <a href={project.github} rel="noreferrer" target="_blank">Code</a>
-              </div>
+              <img
+                className="d-block center img mt-3 pb-3"
+                src={project.image}
+                alt={project.name}
+              />
+              <div className="links">
+                <a href={project.site} rel="noreferrer" target="_blank">
+                  Site
+                </a>
+                {"  "}|{"  "}
+                <a href={project.github} rel="noreferrer" target="_blank">
+                  Code
+                </a>
             </div>
-           <div className='caption pb-5'>
-             <h3>{project.name}</h3>
-             <p>{project.about}</p>
-           </div>
+            <div className="caption pb-5">
+              <h3>{project.name}</h3>
+              <p>{project.about}</p>
+            </div>
           </Carousel.Item>
         ))}
       </Carousel>
