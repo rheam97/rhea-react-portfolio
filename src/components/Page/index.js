@@ -4,6 +4,7 @@ import Projects from "../Projects";
 import Contact from "../Contact";
 import Resume from "../Resume";
 import Content from "./Content";
+import './index.scss'
 
 function Page({ currentPage }) {
   const renderPage = () => {

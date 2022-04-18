@@ -5,11 +5,6 @@ import Footer from "./components/Footer";
 
 import './App.css';
 
-const mainStyle = {
-  marginRight: '200px', 
-  fontSize: '45px', 
-  padding: '0px 10px'
-}
 
 function App() {
   const [pages] = useState(['About', 'Projects', 'Contact', 'Resume'])
@@ -20,7 +15,7 @@ function App() {
   return (
     <>
     <SideBar pages ={pages} currentPage={currentPage} setCurrentPage={setCurrentPage}/>
-    <main style={mainStyle}>
+    <main>
     <Page currentPage={currentPage}/>
     <Footer></Footer>
     </main>

@@ -6,7 +6,7 @@ import './index.scss'
 function Nav({ pages, currentPage, setCurrentPage }) {
   return (
     <nav>
-      <ul>
+      <ul className='nav-list'>
         {pages.map((page) => (
           <div className='nav-link' key={page}>
           <NavLink
