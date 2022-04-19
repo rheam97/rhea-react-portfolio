@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio-rhea/static/css/main.158e5636.css",
-    "main.js": "/react-portfolio-rhea/static/js/main.a26a0bc2.js",
+    "main.css": "/react-portfolio-rhea/static/css/main.4850b1e7.css",
+    "main.js": "/react-portfolio-rhea/static/js/main.0c53f104.js",
     "static/js/787.b25b7f4c.chunk.js": "/react-portfolio-rhea/static/js/787.b25b7f4c.chunk.js",
     "static/media/weatherdashboard.gif": "/react-portfolio-rhea/static/media/weatherdashboard.5e2a7a442a23d0e27d16.gif",
     "static/media/workdayscheduler.gif": "/react-portfolio-rhea/static/media/workdayscheduler.f958cb12c60b84e9f2e0.gif",
@@ -11,13 +11,14 @@
     "static/media/sqlcms.png": "/react-portfolio-rhea/static/media/sqlcms.c10f855fd4a3ae0a96b1.png",
     "static/media/budgettracker.png": "/react-portfolio-rhea/static/media/budgettracker.b159a068370735115a6c.png",
     "static/media/Rhea2022Resume.pdf": "/react-portfolio-rhea/static/media/Rhea2022Resume.f2bfd7e5d8f9ee953670.pdf",
+    "static/media/mern.png": "/react-portfolio-rhea/static/media/mern.045d7aa427cf1b25b600.png",
     "index.html": "/react-portfolio-rhea/index.html",
-    "main.158e5636.css.map": "/react-portfolio-rhea/static/css/main.158e5636.css.map",
-    "main.a26a0bc2.js.map": "/react-portfolio-rhea/static/js/main.a26a0bc2.js.map",
+    "main.4850b1e7.css.map": "/react-portfolio-rhea/static/css/main.4850b1e7.css.map",
+    "main.0c53f104.js.map": "/react-portfolio-rhea/static/js/main.0c53f104.js.map",
     "787.b25b7f4c.chunk.js.map": "/react-portfolio-rhea/static/js/787.b25b7f4c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.158e5636.css",
-    "static/js/main.a26a0bc2.js"
+    "static/css/main.4850b1e7.css",
+    "static/js/main.0c53f104.js"
   ]
 }
