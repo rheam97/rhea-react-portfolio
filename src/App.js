@@ -3,7 +3,7 @@ import SideBar from './components/SideBar'
 import Page from './components/Page'
 import Footer from "./components/Footer";
 
-import './App.css';
+import './app.scss';
 
 
 function App() {
@@ -13,13 +13,13 @@ function App() {
     document.title = currentPage;
   }, [currentPage]);
   return (
-    <>
+    <body>
     <SideBar pages ={pages} currentPage={currentPage} setCurrentPage={setCurrentPage}/>
     <main>
     <Page currentPage={currentPage}/>
     <Footer></Footer>
     </main>
-    </>
+    </body>
   );
 }
 

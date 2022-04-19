@@ -11,7 +11,7 @@ function Footer() {
     <footer className="footer">
       <nav className="socialIcons">
         <a
-          className="icon mr-4"
+          className="icon"
           href="https://github.com/rheam97"
           target="_blank" rel="noreferrer"
         >

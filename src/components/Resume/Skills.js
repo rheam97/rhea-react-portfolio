@@ -24,8 +24,8 @@ function Skills() {
   return (
     <div className="techstack">
       <div className='holder'>
-        <h2>Front-end Technologies</h2>
-        <Carousel className='carousel  mt-4 mb-4'>
+        <h2>Front-End Technologies</h2>
+        <Carousel className='carousel-skills  mt-4 mb-4'>
             {FRONTEND.map((logo, i)=> (
                  <Carousel.Item key={i} interval={1000} className='item '>
                      <img src={logo} alt='front end tech'/>
@@ -37,7 +37,7 @@ function Skills() {
         <h2>Backend Technologies</h2>
         <Carousel className='carousel mb-4'>
             {BACKEND.map((logo, i)=> (
-                 <Carousel.Item  key={i} interval={1000} className='item '>
+                 <Carousel.Item  key={i} interval={1000} className='item'>
                      <img src={logo} alt='back end tech'/>
                  </Carousel.Item>
             ))}

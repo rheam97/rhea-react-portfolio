@@ -4,6 +4,7 @@
   }
   .carousel {
     margin-left: 30px;
+    width: 85vw;
     font-size: 20px;
     .item {
       width: 100%;
@@ -25,16 +26,19 @@
         top: 30%;
         left: 40%;
         cursor: pointer;
-        color: darkblue;
+        color: yellow;
         background-color: rgba(200, 200, 200, 0.5);
         transition: all 400ms ease-in;
         text-align: center;
+
+        a {
+            color: yellow
+        }
       }
-       .links:hover {
+      .links:hover {
         opacity: 1;
         transform: scale(3);
       }
-     
     }
     .caption {
       text-align: center;

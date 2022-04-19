@@ -6,7 +6,7 @@ import Skills from './Skills'
 function Resume() {
   return (
     <div className="res">
-      <h1> Resume and Tech-Stack </h1>
+      <h1 className="heading"> Resume and Tech-Stack </h1>
         <img src={resimg} className="resFile" alt="Resume screenshot" />
         <div className="download">
         <a href={resfile}>

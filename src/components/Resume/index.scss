@@ -4,9 +4,10 @@
     }
     .resFile{
         height: 80vh;
-        width: 50vw;
+        width: 40vw;
         display: block;
         align-items: center;
+        margin-left: 40px;
     }
     .download{
         position: absolute;
@@ -25,18 +26,24 @@
     }
     .techstack {
         position: absolute;
-        width: 30vw;
+        width: 20vw;
         top: 25%;
         right: 5%;
-        transform: translate(-40%, -20%);
-        font-size: 20px;
+        transform: translate(-100%, -10%);
+        font-size: 10px;
         .holder{
             margin-bottom: 50px;
+            h2 {
+                font-size: 20px;
+            }
             img{
-                width: 20%;
+                width: 30%;
                 margin: auto;
                 position: relative;
                 display: block;
+            }
+            .carousel-indicators {
+                display: none;
             }
         }
 

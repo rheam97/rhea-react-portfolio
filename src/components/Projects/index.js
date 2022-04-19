@@ -61,8 +61,8 @@ function Projects() {
   ];
   return (
     <div className="projects">
-      <h1>Projects to-date</h1>
-      <Carousel variant="dark" className="carousel">
+      <h1 className= 'heading'>Projects to-date</h1>
+      <Carousel className="carousel">
         {PROJECTS.map((project, i) => (
           <Carousel.Item key={i} className="item">
               <img
