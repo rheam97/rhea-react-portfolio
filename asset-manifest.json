@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-portfolio-rhea/static/css/main.4850b1e7.css",
-    "main.js": "/react-portfolio-rhea/static/js/main.0c53f104.js",
-    "static/js/787.b25b7f4c.chunk.js": "/react-portfolio-rhea/static/js/787.b25b7f4c.chunk.js",
-    "static/media/weatherdashboard.gif": "/react-portfolio-rhea/static/media/weatherdashboard.5e2a7a442a23d0e27d16.gif",
-    "static/media/workdayscheduler.gif": "/react-portfolio-rhea/static/media/workdayscheduler.f958cb12c60b84e9f2e0.gif",
-    "static/media/restroom.png": "/react-portfolio-rhea/static/media/restroom.17ddea9b1fbbba443eed.png",
-    "static/media/resimg.png": "/react-portfolio-rhea/static/media/resimg.3b551dd0e608a8b1c541.png",
-    "static/media/newsify.png": "/react-portfolio-rhea/static/media/newsify.a137a2b1e8277b2d7e5a.png",
-    "static/media/sqlcms.png": "/react-portfolio-rhea/static/media/sqlcms.c10f855fd4a3ae0a96b1.png",
-    "static/media/budgettracker.png": "/react-portfolio-rhea/static/media/budgettracker.b159a068370735115a6c.png",
-    "static/media/Rhea2022Resume.pdf": "/react-portfolio-rhea/static/media/Rhea2022Resume.f2bfd7e5d8f9ee953670.pdf",
-    "static/media/mern.png": "/react-portfolio-rhea/static/media/mern.045d7aa427cf1b25b600.png",
-    "index.html": "/react-portfolio-rhea/index.html",
-    "main.4850b1e7.css.map": "/react-portfolio-rhea/static/css/main.4850b1e7.css.map",
-    "main.0c53f104.js.map": "/react-portfolio-rhea/static/js/main.0c53f104.js.map",
-    "787.b25b7f4c.chunk.js.map": "/react-portfolio-rhea/static/js/787.b25b7f4c.chunk.js.map"
+    "main.css": "/rhea-react-portfolio/static/css/main.4850b1e7.css",
+    "main.js": "/rhea-react-portfolio/static/js/main.e8f229c8.js",
+    "static/js/787.b25b7f4c.chunk.js": "/rhea-react-portfolio/static/js/787.b25b7f4c.chunk.js",
+    "static/media/weatherdashboard.gif": "/rhea-react-portfolio/static/media/weatherdashboard.5e2a7a442a23d0e27d16.gif",
+    "static/media/workdayscheduler.gif": "/rhea-react-portfolio/static/media/workdayscheduler.f958cb12c60b84e9f2e0.gif",
+    "static/media/restroom.png": "/rhea-react-portfolio/static/media/restroom.17ddea9b1fbbba443eed.png",
+    "static/media/resimg.png": "/rhea-react-portfolio/static/media/resimg.3b551dd0e608a8b1c541.png",
+    "static/media/newsify.png": "/rhea-react-portfolio/static/media/newsify.a137a2b1e8277b2d7e5a.png",
+    "static/media/sqlcms.png": "/rhea-react-portfolio/static/media/sqlcms.c10f855fd4a3ae0a96b1.png",
+    "static/media/budgettracker.png": "/rhea-react-portfolio/static/media/budgettracker.b159a068370735115a6c.png",
+    "static/media/Rhea2022Resume.pdf": "/rhea-react-portfolio/static/media/Rhea2022Resume.f2bfd7e5d8f9ee953670.pdf",
+    "static/media/mern.png": "/rhea-react-portfolio/static/media/mern.045d7aa427cf1b25b600.png",
+    "index.html": "/rhea-react-portfolio/index.html",
+    "main.4850b1e7.css.map": "/rhea-react-portfolio/static/css/main.4850b1e7.css.map",
+    "main.e8f229c8.js.map": "/rhea-react-portfolio/static/js/main.e8f229c8.js.map",
+    "787.b25b7f4c.chunk.js.map": "/rhea-react-portfolio/static/js/787.b25b7f4c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4850b1e7.css",
-    "static/js/main.0c53f104.js"
+    "static/js/main.e8f229c8.js"
   ]
 }
