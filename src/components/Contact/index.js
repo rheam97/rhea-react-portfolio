@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {validateEmail} from '../../utils/helpers'
+import './index.scss'
 
 function Contact() {
   const [formState, setFormState] = useState({

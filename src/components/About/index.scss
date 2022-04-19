@@ -4,7 +4,7 @@
   border-right: 0.15em solid yellow; 
   white-space: nowrap; 
   letter-spacing: 0; 
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end;
 }
 @keyframes typing {
   from {
@@ -27,6 +27,6 @@
 .bio {
   margin-left: 20px;
   font-size: 25px;
-  width: 80vw;
+  width:75vw;
   height: 70vh;
 }

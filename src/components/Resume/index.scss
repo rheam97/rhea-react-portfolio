@@ -13,11 +13,12 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-120%, 90%);
-        font-size: 20px;
+        transform: translate(-125%, 90%);
 
         h2{
-            transition: 400ms ease-in-out
+            font-size: 30px;
+            transition: 400ms ease-in-out;
+            
         }
 
         h2:hover{

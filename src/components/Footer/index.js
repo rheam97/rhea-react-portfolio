@@ -26,7 +26,7 @@ function Footer() {
         </a>
         <a
           className="icon"
-          href= 'https://www.linkedin.com/in/rhea-malviya/'
+          href= 'http://stackoverflow.com/u/rheanaomi'
           target="_blank" rel="noreferrer"
         >
           <FontAwesomeIcon icon="fa-brands fa-stack-overflow" size="2x" />
