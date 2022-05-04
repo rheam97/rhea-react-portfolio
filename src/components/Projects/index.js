@@ -52,14 +52,6 @@ function Projects() {
         "A CLI application built with MySQL and Node that allows users to view an employee database and update data fields. Also includes ability to delete data and get budget for departments.",
     },
     {
-      name: "Weather Dashboard",
-      github: "https://github.com/rheam97/weather-dashboard.git",
-      site: "https://rheam97.github.io/weather-dashboard/",
-      image: weather,
-      about:
-        "A weather dashboard that will run in the browser and feature dynamically updated HTML and CSS (made with Bootstrap) using vanilla JS. Uses the OpenWeather One Call API to retrieve weather data for cities. Uses localStorage to store any persistent data.",
-    },
-    {
       name: "Work Day Scheduler",
       github: "https://github.com/rheam97/workday-scheduler.git",
       site: "https://rheam97.github.io/workday-scheduler/",
