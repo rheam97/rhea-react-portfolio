@@ -6,10 +6,19 @@ import sqlcms from "../../assets/images/sqlcms.png";
 import newsify from "../../assets/images/newsify.png";
 import restroom from "../../assets/images/restroom.png";
 import weather from "../../assets/images/weatherdashboard.gif";
+import silversocials from "../../assets/images/silversocials.png"
 import "./index.scss";
 
 function Projects() {
   const PROJECTS = [
+    {
+      name: "Silver Socials",
+      github: "https://github.com/rheam97/silver-socials",
+      site: "https://silver-socials.herokuapp.com/",
+      image: silversocials,
+      about:
+        "A MERN-Stack social network app for people 55+ to socialize in groups formed by common interest.",
+    },
     {
       name: "Restroom-Finder",
       github: "https://github.com/rheam97/restroom-finder.git",

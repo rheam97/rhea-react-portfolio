@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio-rhea",
   "version": "0.1.0",
-  "homepage": "http://rheam97.github.io/react-portfolio-rhea",
+  "homepage": "http://rheam97.github.io/rhea-react-portfolio",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.1.1",
