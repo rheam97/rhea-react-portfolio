@@ -1,7 +1,7 @@
 import React from "react";
 import NavLink from "./NavLink";
 import './index.scss'
-// import useDarkMode from 'use-dark-mode'
+
 
 function Nav({ pages, currentPage, setCurrentPage }) {
   return (

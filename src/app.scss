@@ -5,30 +5,33 @@
 
    
     .heading {
-        margin-left: 20px;
-        width: calc(100vw - 20vw);
-        overflow: hidden; 
-        border-right: 0.15em solid yellow; 
-        white-space: nowrap; 
-        letter-spacing: 0; 
-        animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end;
+        -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+        animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    }
+    @-webkit-keyframes tracking-in-contract {
+        0% {
+          letter-spacing: 1em;
+          opacity: 0;
+        }
+        40% {
+          opacity: 0.6;
+        }
+        100% {
+          letter-spacing: normal;
+          opacity: 1;
+        }
       }
-      @keyframes typing {
-        from {
-          width: 0;
+      @keyframes tracking-in-contract {
+        0% {
+          letter-spacing: 1em;
+          opacity: 0;
         }
-        to {
-          width: 100%;
+        40% {
+          opacity: 0.6;
         }
-      }
-      
-      @keyframes blink-caret {
-        from,
-        to {
-          border-color: transparent;
-        }
-        50% {
-          border-color: orange;
+        100% {
+          letter-spacing: normal;
+          opacity: 1;
         }
       }
 }
