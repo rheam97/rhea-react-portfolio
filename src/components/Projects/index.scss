@@ -4,7 +4,8 @@
   }
   .carousel {
     margin-left: 0.5vw;
-    width: 85vw;
+    margin-right: 20vw;
+    width: calc(100vw - 20vw);
     font-size: 20px;
     .item {
       width: 100%;
