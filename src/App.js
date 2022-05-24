@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import SideBar from './components/SideBar'
 import Page from './components/Page'
 import Footer from "./components/Footer";
+import Burger from './components/Burger'
 
 import './app.scss';
 
@@ -14,6 +15,7 @@ function App() {
   }, [currentPage]);
   return (
     <body>
+    <Burger/>
     <SideBar pages ={pages} currentPage={currentPage} setCurrentPage={setCurrentPage}/>
     <main>
     <Page currentPage={currentPage}/>
