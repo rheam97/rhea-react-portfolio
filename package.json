@@ -16,6 +16,8 @@
     "react-animations": "^1.0.0",
     "react-bootstrap": "^2.2.3",
     "react-dom": "^18.0.0",
+    "react-pro-sidebar": "^0.7.1",
+    "react-responsive-sidebar": "^0.1.16",
     "react-scripts": "5.0.1",
     "sass": "^1.50.0",
     "use-dark-mode": "^2.3.1",

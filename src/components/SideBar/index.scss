@@ -1,13 +1,13 @@
 .sidebar {
     height: 100%;
-    width: 20vw;
+    width: calc(100vw - 80vw);
     position: fixed;
     z-index: 0;
     top: 0;
     right: 0;
     overflow-x: hidden;
     margin-right: 5vw;
-    padding-top: 10vw;
+    padding-top: 10vh;
 
     .nav-list{
         top: 35%;
@@ -15,6 +15,13 @@
             padding-bottom: 5vw;
             font-size: 20px;
             }
+        .nav-link:hover{
+            background-color: gray;
+            cursor: pointer;
+        }
     }
     
+    // @media screen and (max-width: 1067 ){
+        
+    // }
 }

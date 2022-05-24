@@ -1,5 +1,6 @@
 .heading {
   margin-left: 20px;
+  width: calc(100vw - 20vw);
   overflow: hidden; 
   border-right: 0.15em solid yellow; 
   white-space: nowrap; 
@@ -29,4 +30,7 @@
   font-size: 25px;
   width:75vw;
   height: 70vh;
+}
+@media screen and (max-width: 600px){
+  
 }
