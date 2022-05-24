@@ -3,10 +3,10 @@ import "./index.scss";
 function About() {
   return (
     <section>
-      <h1 id="about" className="py-3 text-left heading">
+      <h1 id="about" className="text-left heading">
         Rhea Malviya | Full-Stack Developer
       </h1>
-
+      <div className='bio-wrapper'>
       <div className="text-left bio">
         <p>
           I'm a full stack developer with a previous
@@ -21,6 +21,7 @@ function About() {
           <br /> I look forward to hearing from you regarding joining your team
           as a driven, personable, and adaptable member.
         </p>
+      </div>
       </div>
     </section>
   );

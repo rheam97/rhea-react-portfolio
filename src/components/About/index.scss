@@ -1,13 +1,13 @@
 .heading {
-margin-left: 20px;
- }
-
-.bio {
   margin-left: 20px;
-  font-size: 25px;
-  width:75vw;
-  height: 70vh;
 }
-@media screen and (max-width: 600px){
-  
+
+.bio-wrapper {
+  .bio {
+    margin-left: 20px;
+    font-size: 25px;
+    size: 100%;
+    overflow-x: scroll;
+    overflow-y: scroll;
+  }
 }

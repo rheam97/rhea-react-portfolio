@@ -1,7 +1,9 @@
-nav {
+.socialIcons {
+    position: fixed;
     display: flex;
+    justify-content: space-between;
     margin-left: 5vw;
-    margin-bottom: 5vw;
+    width: 100%;
 
     .icon {
         margin-right: 30vw;

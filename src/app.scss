@@ -1,12 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 * {
-    font-family: Consolas,monaco,monospace; 
+    font-family: 'Staatliches', cursive;
     color: yellow;
     background-color: black;
-
    
     .heading {
         -webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
         animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+        background-color: transparent;
     }
     @-webkit-keyframes tracking-in-contract {
         0% {
@@ -33,5 +34,9 @@
           letter-spacing: normal;
           opacity: 1;
         }
+      }
+
+      main {
+          overflow: scroll;
       }
 }

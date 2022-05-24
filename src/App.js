@@ -14,7 +14,7 @@ function App() {
   }, [currentPage]);
   return (
     <body>
-    {/* <SideBar pages ={pages} currentPage={currentPage} setCurrentPage={setCurrentPage}/> */}
+    <SideBar pages ={pages} currentPage={currentPage} setCurrentPage={setCurrentPage}/>
     <main>
     <Page currentPage={currentPage}/>
     <Footer></Footer>
