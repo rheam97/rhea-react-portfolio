@@ -1,3 +1,4 @@
+
 import styled from 'styled-components'
 
 const StyledSideBar = styled.div`
@@ -8,13 +9,13 @@ const StyledSideBar = styled.div`
     top: 0;
     right: 0;
     overflow-x: hidden;
-    margin-right: 5vw;
     padding-top: 10vh;
-    transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'}
-
+    transform: ${({open})=> open ? 'translateX(0)' : 'translateX(200%)'};
+    transition: transform 0.3s ease-in-out;
     button{
-        position: fixed;
+        position: absolute;
         top: 5%;
+        font-size: 2rem;
         margin-right: 70%;
         cursor: pointer;
         border: none;
@@ -37,6 +38,7 @@ const StyledSideBar = styled.div`
             cursor: pointer;
         }
     }
+
 `
 
-export default StyledSideBar
+export default StyledSideBar;

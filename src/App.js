@@ -10,19 +10,22 @@ import './app.scss';
 function App() {
   const [pages] = useState(['About', 'Projects', 'Contact', 'Resume'])
   const [currentPage, setCurrentPage] = useState(pages[0])
+
   const[open, setOpen] = useState(false)
+  console.log(open)
+  
   useEffect(() => {
     document.title = currentPage;
   }, [currentPage]);
   return (
-    <body>
+    <div>
     <Burger open={open} setOpen={setOpen}/>
     <SideBar setOpen={setOpen} open={open} pages ={pages} currentPage={currentPage} setCurrentPage={setCurrentPage}/>
     <main>
     <Page currentPage={currentPage}/>
     <Footer></Footer>
     </main>
-    </body>
+    </div>
   );
 }
 
