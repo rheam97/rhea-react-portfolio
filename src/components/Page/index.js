@@ -6,7 +6,7 @@ import Resume from "../Resume";
 import Content from "./Content";
 import './index.scss'
 
-function Page({ currentPage }) {
+function Page({ currentPage, open }) {
   const renderPage = () => {
     switch (currentPage) {
       case "About":

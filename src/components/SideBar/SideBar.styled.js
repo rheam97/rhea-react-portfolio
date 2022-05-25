@@ -1,18 +1,27 @@
-.sidebar {
+import styled from 'styled-components'
+
+const StyledSideBar = styled.div`
     height: 100%;
     width: calc(100vw - 80vw);
     position: fixed;
-    z-index: 0;
+    z-index: 11;
     top: 0;
     right: 0;
     overflow-x: hidden;
     margin-right: 5vw;
     padding-top: 10vh;
+    transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'}
 
     button{
-        position: absolute;
+        position: fixed;
         top: 5%;
-        right: 75%;
+        margin-right: 70%;
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        &:focus {
+            outline: none;
+        }
     }
 
     ul, ul.nav-list{
@@ -28,4 +37,6 @@
             cursor: pointer;
         }
     }
-}
+`
+
+export default StyledSideBar
