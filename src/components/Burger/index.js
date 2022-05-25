@@ -1,10 +1,12 @@
 import React from 'react';
-
+import StyledBurger from './Burger.style';
 function Burger(props) {
     return (
-        <div>
-            
-        </div>
+        <StyledBurger>
+            <span/>
+            <span/>
+            <span/>
+        </StyledBurger>
     );
 }
 
