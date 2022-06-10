@@ -3,7 +3,7 @@ import NavLink from "./NavLink";
 import './index.scss'
 
 
-function Nav({ pages, currentPage, setCurrentPage }) {
+function Nav({ pages, currentPage, setCurrentPage, open, setOpen }) {
   return (
     <nav>
       <ul className='nav-list'>
@@ -13,6 +13,8 @@ function Nav({ pages, currentPage, setCurrentPage }) {
             page={page}
             currentPage={currentPage}
             setCurrentPage={setCurrentPage}
+            open={open} 
+            setOpen={setOpen}
           />
           </div>
         ))}

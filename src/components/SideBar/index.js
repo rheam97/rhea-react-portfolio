@@ -9,7 +9,7 @@ function SideBar({pages, currentPage, setCurrentPage, setOpen, open}){
 return (
     <StyledSideBar className= 'sidebar' open={open}>
         <button className="close" onClick={()=> setOpen(false)}>X</button>
-        <Nav pages={pages} currentPage={currentPage} setCurrentPage={setCurrentPage}/>
+        <Nav pages={pages} open={open} setOpen={setOpen} currentPage={currentPage} setCurrentPage={setCurrentPage}/>
     </StyledSideBar>
 )
 }

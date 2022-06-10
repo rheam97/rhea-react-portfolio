@@ -1,11 +1,15 @@
 import React from "react";
 
-function NavLink({ page, currentPage, setCurrentPage }) {
+function NavLink({ page, currentPage, setCurrentPage, open, setOpen }) {
+  const closeBar = ()=> {
+    setCurrentPage(page)
+    setOpen(false)
+  }
   return (
     <ul key={page}>
       <span
         className={currentPage}
-        onClick={() => {setCurrentPage(page)}}>
+        onClick={closeBar}>
         {page}
       </span>
     </ul>
