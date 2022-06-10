@@ -16,7 +16,7 @@ const StyledSideBar = styled.div`
         position: absolute;
         top: 5%;
         font-size: 2rem;
-        margin-right: 70%;
+        margin-left: 2vw;
         cursor: pointer;
         border: none;
         background-color: transparent;
@@ -30,13 +30,27 @@ const StyledSideBar = styled.div`
         position:relative;
         display: flex;
         flex-direction: column;
+        align-items: center;
         .nav-link {
             padding-bottom: 5vw;
-            font-size: 20px;
+            font-size: 3vw;
             }
         .nav-link:hover{
             cursor: pointer;
+            text-decoration: underline;
         }
+    }
+    @media (max-width: 768px){
+        width: 100vw;
+        button{
+            font-size: 1.5rem;
+            margin-left: 3vw;
+        }
+            .nav-link {
+                padding-bottom: 0;
+                font-size: 5vw;
+                }
+      
     }
 
 `
