@@ -10,13 +10,12 @@
         margin-left: 40px;
     }
     .download{
-        position: absolute;
+        position: fixed;
         top: 50%;
-        left: 50%;
-        transform: translate(-125%, 90%);
-
+        left: 7%;
+    
         h2{
-            font-size: 30px;
+            font-size: 3vw;
             transition: 400ms ease-in-out;
             
         }
@@ -26,11 +25,10 @@
         }
     }
     .techstack {
-        position: absolute;
+        position: fixed;
         width: 20vw;
-        top: 25%;
-        right: 5%;
-        transform: translate(-100%, -10%);
+        top: 10%;
+        right: 20%;
         font-size: 10px;
         .holder{
             margin-bottom: 50px;
@@ -50,5 +48,10 @@
 
        
     }
+@media screen and (max-width: 912px) {
+  .download { 
+    left: 10%;
+   }
+}
 }
 
